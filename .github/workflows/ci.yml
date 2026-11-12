@@ -68,6 +68,9 @@ jobs:
       - name: Import application
         run: python -c "from app.main import app; assert app.title == 'Nutri-Stacker API'"
 
+      - name: Run tests
+       run: python -m pytest -v
+
   docker:
     name: Backend Docker image
     runs-on: ubuntu-latest

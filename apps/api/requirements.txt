@@ -9,4 +9,3 @@ truststore>=0.10.0
 supabase>=2.10.0
 groq>=0.31.0
 pytest
-httpx
